@@ -1,0 +1,18 @@
+<div id="grid-display">
+  <!-- <div *ngFor="data as row">
+    {{row}}
+  </div> -->
+  <h4>Grid display</h4>
+  <table>
+    <thead>
+      <tr><th *ngFor="let k of gridKeys">{{k}}</th></tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let gd of gridData">
+        <td *ngFor="let row of gd | keyvalue">{{row.value}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
+
