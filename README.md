@@ -1,4 +1,4 @@
-#README
+
 
 This component is for displaying data in a grid format.
 It uses HTML tables to display the data.
